@@ -1,6 +1,7 @@
 package hello.hellospring.service;
 
 import hello.hellospring.domain.Member;
+
 import hello.hellospring.repository.MemberRepository;
 import hello.hellospring.repository.MemoryMemberRepository;
 import jdk.nashorn.internal.runtime.options.Option;
@@ -20,6 +21,7 @@ public class MemberService {
         this.memberRepository = memberRepository;
     }
 
+//    private final MemberRepository memberRepository = new MemoryMemberRepository();
 
     /**
      * 회원 가입
